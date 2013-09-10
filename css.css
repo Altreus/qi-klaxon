@@ -1,0 +1,19 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+}
+
+#text {
+    color: white;
+    width:100%;
+    position: absolute;
+    top: 30%;
+    font-size: 72pt;
+    font-family: sans;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align:center;
+}

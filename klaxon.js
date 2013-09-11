@@ -21,5 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(show(textDiv), 1900);
     setTimeout(hide(textDiv), 2600);
     setTimeout(show(textDiv), 3300);
-    setTimeout(hide(textDiv), 5000);
+    setTimeout(hide(textDiv), 4700);
+    setTimeout(show(textDiv), 5000);
 });

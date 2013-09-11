@@ -9,7 +9,7 @@ function show(el) {
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
-    var text = window.location.search.substr(1).replace(/\+/g, ' ');
+    var text = decodeURI(window.location.search.substr(1).replace(/\+/g, ' '));
     var textDiv = document.getElementById('text');
     
     textDiv.textContent = text;

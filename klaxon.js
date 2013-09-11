@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var text = window.location.search.substr(1).replace(/\+/g, ' ');
     var textDiv = document.getElementById('text');
     
-    textDiv.innerText = text;
+    textDiv.textContent = text;
     document.getElementById('klaxon').play();
 
     setTimeout(hide(textDiv), 500);
